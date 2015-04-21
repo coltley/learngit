@@ -1,0 +1,11 @@
+把文件添加到版本库：
+git add 文件名
+		//用命令告诉git把文件添加到仓库
+		
+git commit -m "本次提交的说明"
+		//这样就能从历史记录里方便地找到改动记录
+		
+git add file.txt
+git add file2.txt file3.txt
+git commit -m "add 3 files"
+		//commit可以一次提交很多文件
